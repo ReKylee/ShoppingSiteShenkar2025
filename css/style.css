@@ -12,19 +12,14 @@
   margin: 0;
 }
 
-#page-wrapper {
-  padding: 32px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
 /* Header */
 header {
   font-family: Nunito;
   display: flex;
   align-items: center;
+  margin: 32px;
 }
+
 header,
 body {
   background-color: white;
@@ -126,4 +121,43 @@ footer a {
 /* Main */
 main {
   flex: 1;
+}
+
+#welcome-splash {
+  position: relative;
+  width: 100vw;
+}
+#welcome-splash img {
+  width: 100vw;
+  height: auto;
+  display: block;
+  opacity: 0.5;
+}
+
+#splash-text {
+  font-family: Nunito;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
+
+main h1 {
+  font-weight: 800;
+  font-size: 96px;
+  font-size: clamp(1rem, 8vw, 96px);
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #612999;
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+main p {
+  font-family: Nunito;
+  font-weight: 600;
+  font-size: clamp(0.5rem, 2.5vw, 24px);
+  line-height: 100%;
+  letter-spacing: 0%;
+
+  color: #000000;
 }
