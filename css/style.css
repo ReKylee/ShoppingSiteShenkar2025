@@ -1,17 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
-
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
 * {
   padding: 0;
   margin: 0;
-  background-color: white;
 }
 
+#page-wrapper {
+  padding: 32px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 /* Header */
 header {
   font-family: Nunito;
   display: flex;
-  margin: 32px;
   align-items: center;
+}
+header,
+body {
+  background-color: white;
 }
 
 header a {
@@ -53,4 +69,61 @@ nav {
 #nav-current-page,
 nav a:hover {
   font-weight: 700;
+}
+
+/* Footer */
+
+footer {
+  background-color: #efecff;
+  padding: 32px;
+}
+#footer-sections {
+  display: flex;
+  gap: 150px;
+  margin-bottom: 24px;
+}
+
+#who-we-are-section,
+#follow-us-section {
+  display: flex;
+  flex-direction: column;
+}
+
+footer h4 {
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+footer a {
+  margin: 8px;
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-decoration: none;
+  color: #333333;
+}
+#footer-social-section {
+  margin-bottom: 16px;
+}
+#footer-social-section a {
+  color: #272d4e;
+}
+#copyright-section span {
+  font-family: Nunito;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #333333;
+}
+
+/* Main */
+main {
+  flex: 1;
 }
