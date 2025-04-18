@@ -25,7 +25,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin: 32px; */
   background-color: white;
 }
 
@@ -140,9 +139,6 @@ main p {
 }
 
 /* About */
-/* #about-section { */
-/*   margin: 32px; */
-/* } */
 
 h2 {
   font-family: Rubik, sans-serif;
@@ -159,10 +155,6 @@ h2 {
   line-height: 1.41;
   text-align: justify;
 }
-
-/* #popular-games-section { */
-/*   margin: 32px; */
-/* } */
 
 /* Cards */
 .cards-container {
@@ -204,6 +196,11 @@ h2 {
   aspect-ratio: 1;
   width: 47px;
   height: 47px;
+}
+
+.product-card__image-container i.bi:hover::before {
+  /* filled heart */
+  content: "\f415";
 }
 
 .product-card__info {
