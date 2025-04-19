@@ -16,9 +16,11 @@
 a {
   cursor: pointer;
 }
+
 .margin-container {
   margin: 32px;
 }
+
 /* Header */
 header {
   font-family: Nunito, sans-serif;
@@ -69,9 +71,11 @@ nav {
   font-size: 30px;
   color: var(--main-color);
 }
+
 #desktop-header {
   display: inline-flex;
 }
+
 header i.bi {
   display: none;
   font-size: 2rem;
@@ -90,6 +94,7 @@ header i.bi {
   nav {
     display: none;
   }
+
   header i.bi {
     display: inline-flex;
   }
@@ -206,6 +211,7 @@ h2 {
 .product-card__info {
   margin: 21px 32px;
 }
+
 .product-card__info h3 {
   margin-bottom: 7px;
   font-family: Abel, sans-serif;
@@ -251,6 +257,7 @@ h2 {
   width: 63px;
   height: 63px;
 }
+
 /* Footer */
 footer {
   background-color: var(--icon-bg-color);
@@ -314,6 +321,7 @@ footer a {
   width: 100%;
   gap: 32px;
 }
+
 #showcase-section img {
   display: inline;
   height: 300px;
@@ -332,6 +340,7 @@ footer a {
 
   margin: 32px 0;
 }
+
 #product-list-section ul {
   font-family: Rubik;
   font-weight: 400;
@@ -363,6 +372,7 @@ footer a {
   letter-spacing: 0%;
   margin: 16px 0px 32px 0px;
 }
+
 #video-section iframe {
   display: flex;
   max-width: 100%;
