@@ -90,7 +90,7 @@ header i.bi {
   height: 70px;
 }
 
-@media only screen and (max-width: 1310px) {
+@media only screen and (width <= 1310px) {
   nav {
     display: none;
   }
@@ -292,7 +292,7 @@ footer a {
   font-size: 16px;
   line-height: 1;
   text-decoration: none;
-  color: #333333;
+  color: #333;
 }
 
 #footer-social-section {
@@ -309,7 +309,7 @@ footer a {
   font-weight: 600;
   font-size: 16px;
   line-height: 1;
-  color: #333333;
+  color: #333;
 }
 
 /* PRODUCTS PAGE */
@@ -337,7 +337,6 @@ footer a {
   font-weight: 500;
   font-size: 40px;
   line-height: 40px;
-
   margin: 32px 0;
 }
 
@@ -370,7 +369,7 @@ footer a {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: 0%;
-  margin: 16px 0px 32px 0px;
+  margin: 16px 0 32px;
 }
 
 #video-section iframe {
