@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 :root {
-  /* I just had to make it green. Idc what everyone says :D */
+  /* I just had to make it green. Idc what everyone says :D
+   * P.S It's Yuval approved */
   --main-color: #099a19;
   --icon-bg-color: #efecff;
   --fav-icon-color: #f51264;
@@ -39,7 +40,8 @@ header a {
   text-decoration: none;
 }
 
-header a:active {
+header a:active,
+header a {
   color: var(--main-color);
 }
 
@@ -69,7 +71,6 @@ nav {
   justify-content: flex-start;
   font-weight: 400;
   font-size: 30px;
-  color: var(--main-color);
 }
 
 #desktop-header {
