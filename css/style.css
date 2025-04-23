@@ -91,7 +91,7 @@ header i.bi {
   height: 70px;
 }
 
-@media only screen and (width <= 1310px) {
+@media only screen and (width <= 1200px) {
   nav {
     display: none;
   }
